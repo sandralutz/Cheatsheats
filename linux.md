@@ -2,6 +2,11 @@
 
 ## System
 
+$\colorbox{red}{text}$
+
+Text inside bordered Box 
+
+$\fbox{Hello there}$
 
 
 Display Linux system information
