@@ -5,6 +5,7 @@
 Display Linux system information
 ```
 uname -a
+```
 <br>
 Display kernel release information
 ```
