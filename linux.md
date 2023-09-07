@@ -3,7 +3,9 @@
 ## System
 
 Display Linux system information
-<span style="color:#d65cad">uname -a</span>
+<span style="color:#d65cad">
+uname -a
+</span>
 <br>
 Display kernel release information
 <span style="color:#d65cad">uname -r</span>
