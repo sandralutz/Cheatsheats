@@ -1,7 +1,13 @@
 # Linux
 
 ## System
-<code style="color : aqua">text</code>
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
 Display Linux system information
 <span style="color: #d65cad">
