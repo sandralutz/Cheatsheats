@@ -2,8 +2,10 @@
 
 ## System
 
+<span style="color: green"> Some green text </span>
+
 Display Linux system information
-<span style="color:#d65cad">
+<span style="color: #d65cad">
 uname -a
 </span>
 <br>
