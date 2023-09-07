@@ -2,12 +2,6 @@
 
 ## System
 
-$\colorbox{red}{text}$
-
-Text inside bordered Box 
-
-
-
 
 Display Linux system information
 <span style="color: #d65cad">
