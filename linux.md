@@ -1,8 +1,7 @@
 # Linux
 
 ## System
-
-<span style="color: green"> Some green text </span>
+<code style="color : aqua">text</code>
 
 Display Linux system information
 <span style="color: #d65cad">
