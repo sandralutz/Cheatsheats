@@ -1,13 +1,8 @@
 # Linux
 
 ## System
-```diff
-- wewerwre
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
+
+$${\color{red}Red}$$
 
 Display Linux system information
 <span style="color: #d65cad">
