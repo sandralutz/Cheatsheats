@@ -2,7 +2,7 @@
 
 ## System
 
-$${\color{red}Red}$$
+
 
 Display Linux system information
 <span style="color: #d65cad">
