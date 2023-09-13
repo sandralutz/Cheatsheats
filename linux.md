@@ -1,5 +1,8 @@
 # Linux
 
+### Hegedoc
+https://hedgedoc.groot.rocks/s/4hccyGqSJ
+
 ## System
 
 Display Linux system information
