@@ -3,37 +3,37 @@
 ## System
 
 Display Linux system information
-<mark style="background-color: #d65cad">uname -a</mark>  
+<span style="color:#d65cad">uname -a</span>  
 <br>
 Display kernel release information
-<mark style="background-color: #d65cad">uname -r</mark>  
+<span style="color:#d65cad">uname -r</span>  
 <br>
 Show how long the system has been running and loaded
-<mark style="background-color: #d65cad">uptime</mark>  
+<span style="color:#d65cad">uptime</span>  
 <br>
 Show system host name
-<mark style="background-color: #d65cad">hostname</mark>  
+<span style="color:#d65cad">hostname</span>  
 <br>
 Display the IP address of the host
-<mark style="background-color: #d65cad">hostname -l</mark>  
+<span style="color:#d65cad">hostname -l</span>  
 <br>
 Show system reboot history
-<mark style="background-color: #d65cad">last reboot</mark>  
+<span style="color:#d65cad">last reboot</span>  
 <br>
 Show current date and time
-<mark style="background-color: #d65cad">date</mark>  
+<span style="color:#d65cad">date</span>  
 <br>
 Show this month's calendar
-<mark style="background-color: #d65cad">cal</mark>  
+<span style="color:#d65cad">cal</span>  
 <br>
 Display who is online
-<mark style="background-color: #d65cad">w</mark>  
+<span style="color:#d65cad">w</span>  
 <br>
 Who you are logged in as
-<mark style="background-color: #d65cad">whoami</mark>  
+<span style="color:#d65cad">whoami</span>  
 <br>
 Display information about user
-<mark style="background-color: #d65cad">finger user</mark>  
+<span style="color:#d65cad">finger user</span>  
 
 <br>
 <br>
@@ -42,29 +42,29 @@ Display information about user
 ## Users
 
 Show the active user id with login and group
-<mark style="background-color: #038ca1">id</mark>  
+<span style="color:#038ca1">id</span>  
 <br>
 Show last logins in the system
-<mark style="background-color: #038ca1">last</mark>  
+<span style="color:#038ca1">last</span>  
 <br>
 Show who is logged on the system
-<mark style="background-color: #038ca1">who</mark>  
+<span style="color:#038ca1">who</span>  
 <br>
 Add group "admin"
-<mark style="background-color: #038ca1">group add admin</mark>  
+<span style="color:#038ca1">group add admin</span>  
 <br>
 g admin -m sam
 Create user "sam"
-<mark style="background-color: #038ca1">useradd -c "Sam Tomshi"</mark>  
+<span style="color:#038ca1">useradd -c "Sam Tomshi"</span>  
 <br>
 Delete user sam
-<mark style="background-color: #038ca1">userdel sam</mark>  
+<span style="color:#038ca1">userdel sam</span>  
 <br>
 Add user sam
-<mark style="background-color: #038ca1">adduser sam</mark>  
+<span style="color:#038ca1">adduser sam</span>  
 <br>
 Modify user information
-<mark style="background-color: #038ca1">usermod</mark>  
+<span style="color:#038ca1">usermod</span>  
 <br>
 <br>
 
@@ -73,66 +73,63 @@ Modify user information
 ## File permission related
 
 Change the permissions of file to octal
-<mark style="background-color: #d69015">chmod octal file-name</mark>  
+<span style="color:#d69015">chmod octal file-name</span>  
 <br>
 #### example
 Set rwx permission for owner, group and other
-<mark style="background-color: #d69015">chmod 777</mark>  
+<span style="color:#d69015">chmod 777</span>  
 <br>
 Set rwx permission for owner, rw for group and other
-<mark style="background-color: #d69015">chmod 755</mark>  
+<span style="color:#d69015">chmod 755</span>  
 <br>
 Change owner on the file
-<mark style="background-color: #d69015">chown owner-user file</mark>  
+<span style="color:#d69015">chown owner-user file</span>  
 <br>
 Change owner and group owner of the file 
-<mark style="background-color: #d69015">chown owner-user:owner-group of the file</mark>  
+<span style="color:#d69015">chown owner-user:owner-group of the file</span>  
 <br>
 Change owner and group owner of the directory
-<mark style="background-color: #d69015">chown owner-user:owner-group of the direcotry</mark>  
+<span style="color:#d69015">chown owner-user:owner-group of the direcotry</span>  
 <br>
 <br>
-<br>
-<br>
-
 
 ## Hardware
 
 Detected hardware and boot messages
-<mark style="background-color: #89e09d">dmesg</mark>  
+<span style="color:#89e09d">dmesg</span>  
 <br>
 CPU model
-<mark style="background-color: #89e09d">cat /proc/cpuinfo</mark>  
+<span style="color:#89e09d">cat /proc/cpuinfo</span>  
 <br>
 Hardware memory
-<mark style="background-color: #89e09d">cat /proc/meminfo</mark>  
+<span style="color:#89e09d">cat /proc/meminfo</span>  
 <br>
 Lists the number of interrupts per CPU per I/O device
-<mark style="background-color: #89e09d">lshw</mark>  
+<span style="color:#89e09d">lshw</span>  
 <br>
 Displays Block device related information in Linux
-<mark style="background-color: #89e09d">lsblk</mark>  
+<span style="color:#89e09d">lsblk</span>  
 <br>
 Used and free memory (-m for MB)
-<mark style="background-color: #89e09d">free -m</mark>  
+<span style="color:#89e09d">free -m</span>  
 <br>
 Show PCI devices
-<mark style="background-color: #89e09d">lspci -tv</mark>  
+<span style="color:#89e09d">lspci -tv</span>  
 <br>
 Show USB devices
-<mark style="background-color: #89e09d">lsusb -tv</mark>  
+<span style="color:#89e09d">lsusb -tv</span>  
 <br>
 Show hardware info from BIOS
-<mark style="background-color: #89e09d">dmidecode</mark>  
+<span style="color:#89e09d">dmidecode</span>  
 <br>
 Show Info about disk data
-<mark style="background-color: #89e09d">hdparm -l /dev/sda</mark>  
+<span style="color:#89e09d">hdparm -l /dev/sda</span>  
 <br>
 Do a read speed test on disk data
-<mark style="background-color: #89e09d">hdparm -tT /dev/sda</mark>  
+<span style="color:#89e09d">hdparm -tT /dev/sda</span>  
 <br>
 Test for unreadable blocks on disk sda
-<mark style="background-color: #89e09d">badblocks -s /dev/sda</mark>  
+<span style="color:#89e09d">badblocks -s /dev/sda</span>  
 <br>
 
 <br>
@@ -142,65 +139,65 @@ Test for unreadable blocks on disk sda
 ## File commands
 
 Display all information about files/directories
-<mark style="background-color: #5c469e">ls -la</mark>  
+<span style="color:#5c469e">ls -la</span>  
 <br>
 Show the path of the corrent directory
-<mark style="background-color: #5c469e">pwd</mark>  
+<span style="color:#5c469e">pwd</span>  
 <br>
 Create new direcory
-<mark style="background-color: #5c469e">mkdir</mark>  
+<span style="color:#5c469e">mkdir</span>  
 <br>
 Delete file
-<mark style="background-color: #5c469e">rm</mark>  
+<span style="color:#5c469e">rm</span>  
 <br>
 Delete directory recursively
-<mark style="background-color: #5c469e">rm -r directory-name</mark>  
+<span style="color:#5c469e">rm -r directory-name</span>  
 <br>
 Forcefully remove directory recursively
-<mark style="background-color: #5c469e">rm -rf directory-name</mark>  
+<span style="color:#5c469e">rm -rf directory-name</span>  
 <br>
 copy file 1 to file 2
-<mark style="background-color: #5c469e">cp file1 file2</mark>  
+<span style="color:#5c469e">cp file1 file2</span>  
 <br>
 Copy dir 1 to dir 2, create if doesn't exist
-<mark style="background-color: #5c469e">cp -r dir 1 dir 2</mark>  
+<span style="color:#5c469e">cp -r dir 1 dir 2</span>  
 <br>
 Rename source to dest
 Move source to directory
-<mark style="background-color: #5c469e">mv file 1 file 2</mark>  
+<span style="color:#5c469e">mv file 1 file 2</span>  
 <br>
 Create symbolic link to file-name
-<mark style="background-color: #5c469e">ln -s /path/to/file-name link-name</mark>  
+<span style="color:#5c469e">ln -s /path/to/file-name link-name</span>  
 <br>
 Create or update file
-<mark style="background-color: #5c469e">touch file</mark>  
+<span style="color:#5c469e">touch file</span>  
 <br>
 Place standard input into file
-<mark style="background-color: #5c469e">cat > file </mark>  
+<span style="color:#5c469e">cat > file </span>  
 <br>
 Output content of file
-<mark style="background-color: #5c469e">more file</mark>  
+<span style="color:#5c469e">more file</span>  
 <br>
 Output first 10 lines of file
-<mark style="background-color: #5c469e">head file</mark>  
+<span style="color:#5c469e">head file</span>  
 <br>
 Output last 10 lines of file
-<mark style="background-color: #5c469e">tail file</mark>  
+<span style="color:#5c469e">tail file</span>  
 <br>
 Output contens of file as grows starting with the last 10 lines
-<mark style="background-color: #5c469e">tail -f file </mark>  
+<span style="color:#5c469e">tail -f file </span>  
 <br>
 Encrypt file
-<mark style="background-color: #5c469e">gpg -c file</mark>  
+<span style="color:#5c469e">gpg -c file</span>  
 <br>
 Decrypt file
-<mark style="background-color: #5c469e">gpg file.gpg</mark>  
+<span style="color:#5c469e">gpg file.gpg</span>  
 <br>
 Print number of bytes, words and lines in file
-<mark style="background-color: #5c469e">wc</mark>  
+<span style="color:#5c469e">wc</span>  
 <br>
 Execute command lines from standard input
-<mark style="background-color: #5c469e">xargs</mark>  
+<span style="color:#5c469e">xargs</span>  
 <br>
 
 
@@ -209,34 +206,34 @@ Execute command lines from standard input
 
 ## Process related
 Display your current active processes
-<mark style="background-color: #ab0f46">ps</mark>  
+<span style="color:#ab0f46">ps</span>  
 <br>
 Find all process id related to telnet process
-<mark style="background-color: #ab0f46">ps aux | grep "telnet"</mark>  
+<span style="color:#ab0f46">ps aux | grep "telnet"</span>  
 <br>
 Memory map of process
-<mark style="background-color: #ab0f46">pmap</mark>  
+<span style="color:#ab0f46">pmap</span>  
 <br>
 Display all running processes
-<mark style="background-color: #ab0f46">top</mark>  
+<span style="color:#ab0f46">top</span>  
 <br>
 Kill process with mentioned pid
-<mark style="background-color: #ab0f46">kill pid</mark>  
+<span style="color:#ab0f46">kill pid</span>  
 <br>
 Kill all processes named proc
-<mark style="background-color: #ab0f46">killall proc</mark>  
+<span style="color:#ab0f46">killall proc</span>  
 <br>
 Send signal to a process with its name
-<mark style="background-color: #ab0f46">pkill process-name</mark>  
+<span style="color:#ab0f46">pkill process-name</span>  
 <br>
 Resume suspended jobs without bringing them to foreground
-<mark style="background-color: #ab0f46">bg</mark>  
+<span style="color:#ab0f46">bg</span>  
 <br>
 Brings the most recent jobs to foreground
-<mark style="background-color: #ab0f46">fg</mark>  
+<span style="color:#ab0f46">fg</span>  
 <br>
 Brings job n to the foreground
-<mark style="background-color: #ab0f46">fg n</mark>  
+<span style="color:#ab0f46">fg n</span>  
 <br>
 
 
@@ -247,13 +244,13 @@ Brings job n to the foreground
 ## Direcory traverse
 
 To go up on level of the directory tree
-<mark style="background-color: #3257a1">cd ..</mark>  
+<span style="color:#3257a1">cd ..</span>  
 <br>
 To go to $HOME directory
-<mark style="background-color: #3257a1">cd</mark>  
+<span style="color:#3257a1">cd</span>  
 <br>
 Change to /test directory
-<mark style="background-color: #3257a1">cd /test</mark>  
+<span style="color:#3257a1">cd /test</span>  
 <br>
 
 
@@ -264,56 +261,137 @@ Change to /test directory
 
 Display all network interfaces and ip address 
 (a iproute2 comand, powerful than ifconfig)
-<mark style="background-color: #baa507">ip addr show</mark>  
+<span style="color:#baa507">ip addr show</span>  
 <br>
 Set ip address
-<mark style="background-color: #baa507">address and 192.168.0.1 dev eth0</mark>  
+<span style="color:#baa507">address and 192.168.0.1 dev eth0</span>  
 <br>
 Linux tool to show ethernet status
-<mark style="background-color: #baa507">ethtool eth0</mark>  
+<span style="color:#baa507">ethtool eth0</span>  
 <br>
 Linux tool so thow ethernet status
-<mark style="background-color: #baa507">mii-tool eth0</mark>  
+<span style="color:#baa507">mii-tool eth0</span>  
 <br>
 Send echo request to test connection
-<mark style="background-color: #baa507">ping host</mark>  
+<span style="color:#baa507">ping host</span>  
 <br>
 Get who is information for domain
-<mark style="background-color: #baa507">whois domain</mark>  
+<span style="color:#baa507">whois domain</span>  
 <br>
 Get DNS information for domain
-<mark style="background-color: #baa507">dig domain</mark>  
+<span style="color:#baa507">dig domain</span>  
 <br>
 Reverse lookup host
-<mark style="background-color: #baa507">dig -x domain</mark>  
+<span style="color:#baa507">dig -x domain</span>  
 <br>
 Lookup DNS ip addresse for the name
-<mark style="background-color: #baa507">host google.com</mark>  
+<span style="color:#baa507">host google.com</span>  
 <br>
 Lookup local ip address
-<mark style="background-color: #baa507">hostname -i</mark>  
+<span style="color:#baa507">hostname -i</span>  
 <br>
 Download file
-<mark style="background-color: #baa507">wget file</mark>  
+<span style="color:#baa507">wget file</span>  
 <br>
 Listing all active listening ports
-<mark style="background-color: #baa507">netstat -tupl</mark>  
+<span style="color:#baa507">netstat -tupl</span>  
+<br>
+<br>
+## Login (SSH and Telnet)
+
+Connect to host as user
+<span style="color:#3d8503">ssh user@host</span>  
+<br>
+Connect to host using specific port
+<span style="color:#3d8503">ssh -p port user@host</span>  
+<br>
+Connect to the system using telnet port
+<span style="color:#3d8503">telnet host</span>  
+<br>
+<br>
+## Compression / Archives
+
+Create tar named home.tar containing home/
+<span style="color:#6c4987">tar cf home.tar home</span>  
+<br>
+Extract the files from file.tar
+<span style="color:#6c4987">tar xf home.tar home</span>  
+<br>
+Create a tar with gzip compression
+<span style="color:#6c4987">tar czf file.tar.gz</span>  
+<br>
+Compress file and renames it to file.gz
+<span style="color:#6c4987">gzip file</span>  
+<br>
+<br>
+
+## File transfer
+
+Secure Copy
+<span style="color:#a83200">scp</span>  
+<br>
+Secure copy file.txt to remote host /tmp folder rsync
+<span style="color:#a83200">scp file.txt server2:/tmp</span>  
+<br>
+Synchronize source to destination
+<span style="color:#a83200">rsync -a /home/apps/backup/</span>  
+<br>
+
+###  Disk usage
+
+
+Show free space on mounted filesystem
+<span style="color:#a83200">df -h</span>  
+<br>
+Show free inodes on mounted filesystem
+<span style="color:#a83200">df -i</span>  
+<br>
+Show disks partitions sizes and types
+<span style="color:#a83200">fdisk -l</span>  
+<br>
+Display disk usage in human readable from
+<span style="color:#a83200">du -ah</span>  
+<br>
+Display total disk usage on the current directory 
+<span style="color:#a83200">du -sh</span>  
+<br>
+Displays target mount point for all filesystems
+<span style="color:#a83200">findmnt</span>  
+<br>
+Mount a device
+<span style="color:#a83200">mount device-path mount-point</span> 
 <br>
 
 
+## Search
+Search for pattern in files
+<span style="color:#2a59b0">grep pattern files</span>  
+<br>
+Search recursively for pattern in dir
+<span style="color:#2a59b0">grep -r pattern dir</span>  
+<br>
+Find all instances of file
+<span style="color:#2a59b0">locate file</span>  
+<br>
+Find file names that start  with "index"
+<span style="color:#2a59b0">find /home/tom -name "index"</span>  
+<br>
+Find files larger than 1000k in /home
+<span style="color:#2a59b0">find /home -size +10000k</span>  
+<br>
 
+## Install from source 
 
+<span style="color:#a7b02a">./configure</span>  
+<br>
+<span style="color:#a7b02a">make</span>  
+<br>
+<span style="color:#a7b02a">make install</span>  
+<br>
 
-
-
-
-
-
-
-
-future colors
-3d8503
-6c4987
-a83200
-3d2c8f
-a7b02a
+## Install package
+Install rpm based packages
+<span style="color:#317d25">rpm -i pkgname.rpm</span>
+<br>
+Remove package
+<span style="color:#317d25">rpm -e pkgname</span>
